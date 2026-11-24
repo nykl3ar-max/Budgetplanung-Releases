@@ -1,38 +1,37 @@
 # Budgetplanung – Releases
 
-This repository only holds the finished **APK files** of the Android app *Budgetplanung*.
-There is **no source code** here, so nobody can look inside the app from this page.
+This repository holds the Android APK files of **Budgetplanung**. You install the app from the
+latest release. There is no source code here.
 
-## What the app does
+## What you can do with the app
 
-Budgetplanung is a small, calm budget app for one person. You create your own budget pools,
-for example food, fuel or clothes, and give each one a monthly limit. When you buy something,
-you add it with the "+" button. The app then shows how much money is left in each pool, and a
-flat bar changes its colour like a traffic light: green, amber, red. Tap a pool to see all
-expenses of the month, and fix a wrong entry there.
+- Set your monthly total budget and change it at any time.
+- Create your own budget pools with a monthly limit.
+- Add your expenses and see how much is left in the month and in every pool.
+- Follow every pool by its progress bar: green while 50 % or more is left, amber below 50 %
+  and red when 15 % or less is left.
+- Choose the day of the month on which a new period starts and reset the month by hand or
+  automatically.
+- Sort your pools by name, by the least money left or by the highest budget.
+- Pick the currency symbol you use.
+- Protect the app with a PIN, a fingerprint or your face, with a lock delay if you want one.
 
-The app also has a lock screen with a 4-digit PIN and fingerprint or face unlock, a month
-reset on the 1st, and it can look for updates by itself.
+All data stays on your phone. There is no account and no server.
 
-## How to install
+## Install the app
 
-1. Open the **Releases** section on the right side of this page.
-2. Open the newest release and download the `.apk` file.
-3. Open the downloaded file on your phone.
-4. Android will ask if you allow installing apps from this source. Allow it for your browser
-   or file manager.
-5. Tap **Install**. That is all.
+1. Open the latest release and download the `.apk` file.
+2. Open the file on your phone. Android asks whether you allow the installation from this
+   source. Allow it.
+3. Install the app and open it.
+4. Set your 4-digit PIN and your monthly total budget.
 
-If you already have an older version installed, the new APK simply updates it and your data
-stays where it is.
+Android 8.0 or newer is required.
 
 ## Updates
 
-The app checks this repository after you unlock it. When there is a newer version, a small
-dialog shows up with a download button. You can also come back to this page at any time and
-download the newest APK by hand.
+The app checks this repository for a newer release after you unlock it. You can also start the
+check in the settings under **App**. When a newer version exists, the app offers the download.
 
-## A note about the design
-
-The app is plain on purpose: dark background, clear text, simple standard icons, no pictures,
-no advertising and no tracking. Everything you enter stays on your phone.
+Install an update over the running app so your data stays. Android only accepts it when the new
+APK is signed with the same key.
